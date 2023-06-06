@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Murecho:wght@500&family=Outfit:wght@300;400;600&family=PT+Sans&family=Source+Sans+Pro:wght@600&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins';
+    overflow: hidden;
+    accent-color: rgb(64, 163, 230);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Murecho:wght@500&family=Outfit:wght@300;400;600&family=PT+Sans&family=Poppins:wght@400;500;600;700&display=swap');
+body {
+    background-color: black;
+    height: 100vh;
+}
+
+.rangeContainer {
+    width: 25%;
+    min-width: 320px;
+    position: absolute;
+    height: 100vh;
+    background-color: rgb(127, 129, 169);
+    z-index: 1;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.headerText {
+    position: relative;
+    left: 1rem;
+    top: 1.5rem;
+    font-weight: 600;
+    color: rgb(240, 243, 245);
+}
+
+#canvas {
+    z-index: 1000;
+}
+
+.ranges {
+    position: relative;
+    top: 3rem;
+    width: 80%;
+    left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 45%;
+    min-height: 400px;
+}
+
+
+/* .RoadLength[type="range"] {
+    -webkit-appearance: none;
+    margin: 0%;
+} */
+
+
+/* 
+.RoadLength[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}
+
+.RoadLength[type="range"]::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+} */
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.rangeText {
+    color: rgb(218, 218, 218);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.white {
+    color: rgb(218, 218, 218);
+}

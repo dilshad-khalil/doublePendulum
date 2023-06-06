@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Js Double Pendulum</title>
+</head>
+
+<body>
+
+    <div class="rangeContainer">
+        <h3 class="headerText">Pendulum Control</h3>
+
+        <div class="ranges">
+
+            <div class="rod center">
+                <span class="rangeText">Rod 1 Length:</span>
+                <input class="Rod1 rangeInput" type="range" min="20" max="200" value="125">
+                <span class="rangeValueR1 white">125</span>
+            </div>
+            <div class="rod center">
+                <span class="rangeText">Rod 2 Length:</span>
+                <input class="Rod2 rangeInput" type="range" min="20" max="200" value="125">
+                <span class="rangeValueR2 white">125</span>
+
+            </div>
+            <div class="Mass center">
+                <span class="rangeText">Mass 1:</span>
+                <input class="Mass1 rangeInput" type="range" min="1" max="20" value="5">
+                <span class="rangeValueM1 white">5</span>
+
+            </div>
+            <div class="Mass center">
+                <span class="rangeText">Mass 2:</span>
+                <input class="Mass2 rangeInput" type="range" min="1" max="20" value="5">
+                <span class="rangeValueM2 white">5</span>
+
+            </div>
+            <div class="MGravity center">
+                <span class="rangeText">Gravity:</span>
+                <input class="gravity rangeInput" type="range" min="0" max="10" value="1">
+                <span class="rangeValueG white">1</span>
+
+            </div>
+        </div>
+    </div>
+    <script src="canvas.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
